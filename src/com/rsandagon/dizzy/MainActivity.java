@@ -19,6 +19,7 @@ public class MainActivity
 
     @ViewById
     TextView hello;
+    
     @RestService
     RestClient restClient;
 
@@ -37,10 +38,10 @@ public class MainActivity
         doSomethingElseOnUiThread();
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.activity_main, menu);
+//        return true;
+//    }
 
 }
